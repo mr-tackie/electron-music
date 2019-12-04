@@ -1,0 +1,11 @@
+.content-wrap {
+	margin-left: 160px;
+	margin-right: 80px;
+	padding-top: 80px;
+}
+
+.window-bar{
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}

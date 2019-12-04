@@ -1,0 +1,33 @@
+.card-item{
+    width: 100%;
+    height: auto;
+}
+
+.card-item .card-image{
+    height: 300px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.card-item .card-image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-meta{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-meta span{
+    color: #999999;
+}
+
+.meta-main h4{
+    font-weight: 300;
+    color: #bbbbbb;
+}

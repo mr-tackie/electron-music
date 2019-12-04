@@ -1,0 +1,38 @@
+.row{
+    width: 100%;
+}
+
+.online-banner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.ms_banner_img {
+	text-align: center;
+	width: 370px;
+    float: left;
+    margin-right: 30px
+}
+
+.ms_banner_img img{
+    width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+.ms_banner_text {
+	width: calc(100% - 400px);
+	float: left;
+	padding-top: 135px;
+}
+
+.ms_banner_text h1 {
+	font-size: 45px;
+	font-weight: bold;
+    line-height: 1.2em;
+}
+
+.ms_banner_text p {
+	margin: 15px 0px 40px;
+	line-height: 30px;
+}

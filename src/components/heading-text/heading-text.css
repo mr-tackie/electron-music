@@ -1,0 +1,27 @@
+.ms_heading {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.ms_heading h1 {
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 10px;
+	text-transform: capitalize;
+}
+.veiw_all {
+	float: right;
+	position: relative;
+	top: 0px;
+	right: 0px;
+}
+.veiw_all a {
+	color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #602080;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}

@@ -1,0 +1,7 @@
+.sad-message{
+    font-weight: 300;
+}
+
+section:not(:last-child){
+    margin-bottom: 60px;
+}

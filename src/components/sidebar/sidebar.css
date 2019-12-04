@@ -1,0 +1,96 @@
+.ms_sidemenu_wrapper {
+	position: fixed;
+	width: 80px;
+	background-color: #602080;
+	height: 100%;
+	z-index: 10000;
+	top: 0;
+	bottom: 0;
+	box-shadow: 0px 0px 24px 6px rgba(4, 4, 4, 0.2);
+}
+.ms_nav_wrapper {
+	padding: 0px 0px;
+	position: absolute !important;
+	left: 0;
+	top: 164px;
+	right: 0;
+	bottom: 70px;
+}
+.ms_nav_wrapper ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.ms_nav_wrapper ul li {
+	width: 100%;
+	display: block;
+}
+.ms_nav_wrapper ul li a {
+	color: #cdcdcd;
+	text-transform: capitalize;
+	width: 100%;
+	display: block;
+	padding: 9px 0px;
+	position: relative;
+	text-align: center;
+	font-size: 14px;
+}
+
+.ms_nav_wrapper ul li a:after {
+	position: absolute;
+	height: 2px;
+	background-color: #602080;
+	bottom: 0px;
+	left: 20px;
+	right: 20px;
+	content: "";
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+
+.ms_nav_wrapper ul li:last-child a:after {
+	display: none;
+}
+
+.ms_nav_wrapper ul li a:hover,
+.ms_nav_wrapper ul li a.active {
+	background-color: #b030b0;
+	background-position: 0px 0px;
+	color: #ffffff;
+}
+.ms_nav_wrapper ul li a:hover:after,
+.ms_nav_wrapper ul li a.active:after {
+	background-color: #c030b0;
+}
+.ms_nav_wrapper ul li a:hover span.nav_icon>.icon,
+.ms_nav_wrapper ul li a.active span.nav_icon>.icon {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+}
+
+.ms_nav_wrapper ul>li>a>span.icon {
+	margin-right: 10px;
+	display: inline-block;
+	-webkit-transform: translate(0, -2px);
+	-moz-transform: translate(0, -2px);
+	-ms-transform: translate(0, -2px);
+	transform: translate(0, -2px);
+}
+.ms_nav_wrapper span.nav_icon>.icon {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	display: inline-block;
+}
+.ms_nav_wrapper ul li a span.nav_icon {
+	margin-right: 0;
+}

@@ -1,0 +1,24 @@
+.ms_header {
+	position: fixed;
+	background-color: #1b2039;
+	padding: 20px 50px;
+	right: 0;
+	left: 80px;
+	top: 25px;
+	z-index: 1000;
+	backface-visibility: hidden;
+}
+
+.ms_top_search {
+	max-width: 395px;
+	position: relative;
+	display: flex;
+	width: 100%;
+	float: left;
+}
+
+.ms_top_right {
+	line-height: 40px;
+	display: flex;
+	place-content: flex-end;
+}
