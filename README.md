@@ -4,7 +4,7 @@
 This player allows you to import and play songs from your local computer as well as search for and stream audio files from SoundCloud
 
 
-![](vlme1.PNG)
+![](vlm1.PNG)
 
 ## Installation
 Simply clone or download this repository `git clone https://github.com/mr-tackie/electron-music.git`
@@ -15,7 +15,7 @@ To add music simply click on the Import button and select a folder to add to you
 
 ## Screenshots
 
-![](vlme2.PNG)
+![](vlm2.PNG)
 
 ## TODO
 1. Playlist functionalities 
